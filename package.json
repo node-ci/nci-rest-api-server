@@ -25,5 +25,8 @@
   "dependencies": {
     "twostep": "0.4.1",
     "underscore": "1.8.3"
+  },
+  "peerDependencies": {
+    "nci": "0.9.x"
   }
 }
