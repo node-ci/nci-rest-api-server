@@ -1,6 +1,6 @@
 {
   "name": "nci-rest-api-server",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "REST api server for nci",
   "main": "lib/index.js",
   "scripts": {
