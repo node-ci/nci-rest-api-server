@@ -68,6 +68,14 @@ there is scm changes for project
 again
 
 
+### PATCH /api/0.1/builds/:id
+
+Update build.
+
+Body parameters:
+ - `cancel` - if set to true then build will be canceled
+
+
 ### GET /api/0.1/projects
 
 Get configs for all currently loaded projects.
