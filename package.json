@@ -27,6 +27,6 @@
     "underscore": "1.8.3"
   },
   "peerDependencies": {
-    "nci": ">=1.0.1 <1.1.0"
+    "nci": ">=1.0.10 <1.1.0"
   }
 }
