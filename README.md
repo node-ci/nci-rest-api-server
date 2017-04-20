@@ -86,12 +86,30 @@ Get configs for all currently loaded projects.
 Get particular project by name.
 
 
-### PATCH /api/0.1/projects/:name
+### POST /api/0.1/projects
 
-Rename project.
+Create new project and set config.
 
 Body parameters:
+ - `name` - project name
+ - `config` - project configuratjion object
+ - `configFile` - project cconfig file object with `name` and `content` fields
+(it's alternative for `config` option when need to set file in specific format)
+ - `loadConfig` - if true then project will be loaded
+
+
+### PATCH /api/0.1/projects/:name
+
+Modify project.
+
+To rename project, body parameters:
  - `name` - new project name
+
+To set project config, body parameters:
+ - `config` - project configuratjion object
+ - `configFile` - project cconfig file object with `name` and `content` fields
+(it's alternative for `config` option when need to set file in specific format)
+ - `loadConfig` - if true then project will be loaded
 
 
 ### DELETE /api/0.1/projects/:name
