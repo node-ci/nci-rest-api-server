@@ -111,6 +111,8 @@ To set project config, body parameters:
 (it's alternative for `config` option when need to set file in specific format)
  - `loadConfig` - if true then project will be loaded
 
+To archive/unarchive project, body parameters:
+ - `archived` - boolean, new state of the project
 
 ### DELETE /api/0.1/projects/:name
 
