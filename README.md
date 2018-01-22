@@ -93,7 +93,7 @@ Create new project and set config.
 Body parameters:
  - `name` - project name
  - `config` - project configuratjion object
- - `configFile` - project cconfig file object with `name` and `content` fields
+ - `configFile` - project config file object with `name` and `content` fields
 (it's alternative for `config` option when need to set file in specific format)
  - `loadConfig` - if true then project will be loaded
 
