@@ -37,8 +37,9 @@ after that you can access api according to your server `http.host` and
 Notes:
 
  - Currently destructive api methods (project removing/renaming)
-protected by randomly generated token which will be printed to the server log
-during server startup.
+protected by token which could be set at config (`http.apiAccessToken` field)
+or will be generated and printed to the server log during server startup.
+Client should send token as `token` field at request body.
  - Currently server respond format is only json.
 
 
